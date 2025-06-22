@@ -1,0 +1,46 @@
+.calendar-container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.legend {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.taken {
+  background-color: green;
+}
+
+.missed {
+  background-color: red;
+}
+
+.today {
+  background-color: blue;
+}
+
+/* Position dots inside calendar tiles */
+.react-calendar__tile {
+  position: relative;
+}
+
+.react-calendar__tile .dot {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
