@@ -19,9 +19,8 @@ The *Medication Management System* helps patients and caretakers track daily med
 
 #### Patient
 
-* *Email:* [Sairam@example.com](mailto:Sairam@example.com)
-* *Password:* sairamgoud111
-
+* *Email:* [Saikiran@example.com](mailto:Saikiran@example.com)
+* *Password:* saikiran123
 ---
 
 ## 🚀 Tech Stack
